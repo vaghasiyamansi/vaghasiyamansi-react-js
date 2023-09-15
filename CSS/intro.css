@@ -1,0 +1,49 @@
+/*css apply external method*/
+pre{
+         color: blue;
+         border: 2px solid royalblue;
+         background-color: bisque;
+}
+
+/*casecad*/
+
+element-1{
+        height:200px;
+        width:200px;
+        background-color: blueviolet;
+
+}
+element-2{
+        background-color: blue;
+        height: 300px;
+        width:500px;
+}
+
+/*inheritance*/
+
+.heading-1{
+     color:red;
+     text-decoration: underlined;
+}
+.element-2{
+     color:green;
+}
+.text .element-2 .heading-1{
+      color:pink;
+}
+.text .heading-1{
+      color:burlywood;
+}
+.element-3 .heading-1{
+      color:bisque;
+}
+
+/*important rule*/
+
+.heading-2{
+       color: khaki !important; ;
+}
+.para-11{
+    color:green !important;
+}
+
