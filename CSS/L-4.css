@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+
+/* accent-color*/
+
+
+/* 
+     disabled
+     enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+::placeholder{
+    color: green;
+}
+input:hover{
+    background-color:  orchid;
+}
+ input:invalid{
+    border:3px solid orchid;
+}
+input:valid{
+    border:3px solid palevioletred;
+}
+
+ol li::marker{
+    color:green;
+}
+ul li::marker{
+    color:red;
+}
+
+
+
+/* css pseudo class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :target
+    :empty
+
+*/
+/* h1:first-child{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:first-of-type{
+    color:red;
+    background-color: yellow;
+} */
+/* h1:last-child{
+    color: red;
+    background-color: yellow;
+}  */
+ /* h1:last-of-type{
+    color: red;
+    background-color: yellow;
+} */
+/* h1:nth-child(5){
+    color: red;
+    background-color: yellow;
+} */
+/* h1:nth-last-child(2){
+    color: red;
+    background-color: yellow;
+} */
+/* h1:not(2){
+    color: red;
+    background-color: yellow;
+} */
+/* h1:nth-last-of-type(3){
+    color: red;
+    background-color: yellow;
+} */
+/* h1:nth-of-type(3){
+    color: red;
+    background-color: yellow;
+} */
+/* h1:only-of-type{
+    color: red;
+    background-color: yellow;
+} */
+/* h1:only-child{
+    color: red;
+    background-color: yellow;
+} */
+/* attributes selector */
+
+/*
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value]
+
+*/
+ a[href="www.google.com"]{
+    background-color: yellow;
+}
+
+a[href="www.facebook.com"]{
+    background-color: red;
+}
+
+div[class*="x"]{
+    height: 500px;
+    background-color:green;
+    border:2px solid red;
+} 
+
+
+
+
+/* css pseudo element */
+
+
+/* css after and before */
+
+/* .box{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    position: relative; 
+}
+    */
+
+/* .box::after{
+    content:"";
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    position: absolute;
+    z-index: -1;
+    bottom: -50px;
+    right: -50px;
+    opacity: 0.2;
+} */
+
+
+p::selection{
+    font-size: 50px; 
+    color:blueviolet;
+    text-decoration: underline;
+    background-color: yellow;
+}

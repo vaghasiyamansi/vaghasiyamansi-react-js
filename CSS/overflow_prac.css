@@ -1,0 +1,180 @@
+body{
+       margin:0;
+       padding: 0;
+}
+.container{
+        height:500px;
+        width:90%;
+        background-color:skyblue;
+        margin:auto;
+        display:flex;
+        padding: 70px;
+}
+.box-1{
+       height:420px;
+       width: 300px;
+       position: relative;
+       background-image: url(asset\ 41.png);
+       background-color: darkslategray;
+       border-radius: 10px;
+       text-align: center;
+}
+div:first-child h4:first-child{
+       color: white;
+}
+div:first-child h2:nth-child(2){
+        color: orange;
+}
+
+.main{
+    position: absolute;
+    height: 62%;
+    bottom: 0;
+    right: 0;
+}
+.tag{
+    z-index: 2;
+    width: 30%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.box1-demo .p1,.box1-demo .p2{
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    right: 48px;
+    font-weight: 800;
+}
+.box1-demo .p2{
+    bottom: 30px;
+}
+.box-2{
+        height:200px;
+        width: 400px;
+        background-color: crimson;
+        margin-left: 30px;
+        border-radius: 10px;
+}
+.box2-demo {
+    position: absolute;
+    float: left;
+    height: 270px;
+    top: 0;
+    margin: auto;
+}
+div:first-child h3:nth-child(2){
+    color: white;
+    float: right;
+    padding: 10px 50px 10px 10px;
+}
+div:first-child h1:nth-child(3){
+    color: white;
+    position: absolute;
+    float: right;
+    font-size: 50px;
+    margin: 50px 10px 10px 190px;
+}
+div:first-child h4:nth-child(4){
+    color: yellow;
+    position: absolute;
+    font-weight: 900;
+    float: right;
+    font-size: 30px;
+    padding: 70px 10px 10px 190px;
+}
+.input-1{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    float: right;
+    font-size: 15px;
+    margin: 75px 73px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}
+
+.box-3 {
+    height:200px;
+    width: 390px;
+    background-color: gray;
+    margin-left: 30px;
+    border-radius: 10px;  
+}
+.box3-demo{
+    height: 200px;
+    position: absolute;
+    float: right;
+    top: 10;
+    border-radius: 10px;  
+}
+span h4{ 
+    position: absolute;
+    float: right;
+    margin: 40px 10px 10px 200px;
+    color: white;
+}
+span h1{
+    position: absolute;
+    float: right;
+    margin: 70px 10px 10px 200px;
+    color: orange;
+}
+.input-2{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: 120px 10px 10px 200px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}
+.box-4{
+    height:180px;
+    width: 805px;
+    background-color: green; 
+    margin-left: 30px; 
+    margin-top: 30px;
+    position: absolute;
+    background-image: url(asset\ 43.png);
+    top: 280px;
+    right: 60px;
+    border-radius:10px;
+}
+
+.box4-demo{
+    position: absolute;
+    float: right;
+    height: 270px;
+    top: 0;
+    left: -70px;
+    bottom: 0;
+    margin: auto;
+}
+.h3{
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 40px 10px 10px 350px;
+}
+.div{
+    position:absolute;
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: 60px;
+    margin: 90px 10px 10px 350px;
+}
+.input-3{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: 110px 10px 10px 650px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}

@@ -1,0 +1,247 @@
+.container1{
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+
+.box1 {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid gray;
+}
+
+.demo-box1 {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+    font-size: bold;
+}
+
+.demo-box2 {
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box3 {
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box2 {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content:flex-end;
+}
+
+.demo-box4 {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box5 {
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+
+}
+
+.demo-box6 {
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box3{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.demo-box7{
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box8 {
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box9 {
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box4{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.demo-box10 {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box11 {
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box12{
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box5{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.demo-box13{
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box14{
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box15{
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box6{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.demo-box16{
+    height: 40px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box17{
+    height: 20px;
+    width: 70px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box18{
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box7{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.demo-box19{
+    height: 160px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box20{
+    height: 160px;
+    width: 70px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box21{
+    height:160px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.box8{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.demo-box22{
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box23{
+    height: 160px;
+    width: 90px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.demo-box24{
+    height: 60px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 5px;
+}
