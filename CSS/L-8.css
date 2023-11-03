@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+}
+img{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    opacity: 0.6;
+}
+.main{
+    height:500px;
+    width: 100%;
+    object-fit: cover;
+    background-image: url(pexels-paul-ijsendoorn-33041.jpg),url(pexels-stein-egil-liland-3408744.jpg);
+    /* background-blend-mode: color; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: hue; */
+    background-blend-mode: lighten;
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: saturation; */
+    /* background-blend-mode: soft-light; */
+}

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+/* Css 2D Transform - Examples */
+
+.translate{
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    margin: 200px;
+    font-size: 20px;
+    color:white;
+}
+.translate:hover{
+     transform: translate(100px,200px);   
+     transform: scale(2);  
+     transform: rotate(360deg);  
+     transform: skew(45deg , 180deg); 
+    transition: 5s;
+}
+
+/* Css 3D Transform - Examples */
+
+.cover{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+.cover:hover .content{
+    transform: perspective(600px) rotate3d(240 , 240 , 240 , 241deg);
+    transition: 8s;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: mediumorchid;
+} 
+
+/* Css Transition - Examples */
+
+.main-box{
+    padding:10px 0px;
+    border:1px solid black;
+    margin: 20px;
+    width: 1000px;
+}
+.transition{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: red;
+}
+.transition:hover{
+    transform: translate(900px);
+    /* transition-duration:10s*/
+    transition-delay: 5s ;
+    /* transition-timing-function:ease */
+    /* transition: 10s 2s linear; */
+}
+
+/* Css Filter - Exampels */
+
+.filter img{
+    /* filter:blur(1px); */
+    /* filter: brightness(100%); */
+    /* filter: contrast(1000%); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(80deg); */
+    /* filter: invert(100%); */
+    /* filter: saturate(1000%); */
+    /* filter: opacity(1); */
+    /* filter: sepia(10); */
+    /* filter: none; */
+    filter: drop-shadow(20px 20px 10px rgb(70,15,63));
+
+} 
+
+
