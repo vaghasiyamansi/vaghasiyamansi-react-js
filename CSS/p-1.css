@@ -1,0 +1,1287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*sidebar-start*/
+
+.nav-bar{
+     height: 2000px;
+     width: 300px;
+     background-color: white;
+     padding: 0;
+}
+.nav-bar{
+        overflow: scroll;
+}
+body{
+    background-color: skyblue;
+}
+ .nav-bar img{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.vuexy{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.vuexy i{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -5px;
+}
+.box-1{
+    height: 1500px;
+    width: 100%;
+    /* position: absolute; */
+    font-weight: 1000;
+}
+i{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 200;
+} 
+.box-menu{
+      line-height: 30px;
+}
+.layouts{
+      position: absolute;
+      margin-left: 20px;
+} 
+.layouts-text h3{
+      position: absolute;
+      margin-left: 50px;
+      margin-top: 8px;
+      color: grey;
+}
+.layouts-text i{
+    position: absolute;
+    margin-left: 250px;
+}
+.front{
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 20px;
+}
+.front-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 42px;
+    color: gray;
+}
+.front-text i{
+      position: absolute;
+      margin-left: 250px;
+      margin-top: 35px;
+}
+.app-pages h4{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 90px;
+    color: grey;
+}
+.email {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 115px;
+}
+.email-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 122px;
+    color: grey;
+}
+.chat{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 144px;
+}
+.chat-text h3{
+    position: absolute;
+    margin-left: 50px ;
+    margin-top: 150px;
+    color: grey;
+}
+.calender{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 172px;
+}
+.calender-text h3{
+    position: absolute;
+    margin-left: 50px ;
+    margin-top: 180px;
+    color: grey;
+}
+.kanban{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.kanban-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 208px;
+    color: grey;
+}
+.e-commerce{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 228px;
+}
+.e-commerce-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:235px;
+    color: grey;
+}
+.e-commerce-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 228px;
+}
+.academy{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 255px;
+}
+.academy-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:263px;
+    color: grey;
+}
+.academy-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 255px;
+}
+.logistics{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 285px;
+}
+.logistics-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:292px;
+    color: grey;
+}
+.logistics-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 283px;
+}
+.invoice{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 315px;
+}
+.invoice-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:323px;
+    color: grey;
+}
+.invoice-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 315px;
+}
+.users{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 345px;
+}
+.users-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:353px;
+    color: grey;
+}
+.users-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 345px;
+}
+.roles-permissions{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 375px;
+}
+.roles-permissions-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:382px;
+    color: grey;
+}
+.roles-permissions-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 375px;
+}
+.pages{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 405px;
+}
+.pages-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:412px;
+    color: grey;
+}
+.pages-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 405px;
+}
+.authentications{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 437px;
+}
+.authentications-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:445px;
+    color: grey;
+}
+.authentications-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 437px;
+}
+.wizard-example{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 470px;
+}
+.wizard-example-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:478px;
+    color: grey;
+}
+.wizard-example-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 472px;
+}
+.modal-example{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 503px;
+}
+.modal-example-text h3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:512px;
+    color: grey;
+}
+.components{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 535px;
+    color: grey;
+}
+.cards{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 580px;
+}
+.cards-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:588px;
+    color: grey;
+}
+.cards-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 579px;
+}
+.user-interface{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 612px;
+}
+.user-interface-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:620px;
+    color: grey;
+}
+.user-interface-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 612px;
+}
+.uxtended-ui{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 647px;
+}
+.uxtended-ui-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:655px;
+    color: grey;
+}
+.uxtended-ui-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 648px;
+}
+.icons{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 680px;
+}
+.icons-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:687px;
+    color: grey;
+}
+.icons-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 680px;
+}
+.formstables h4{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 735px;
+    color: grey;
+}
+.form-element{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 762px;
+}
+.form-element-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:770px;
+    color: grey;
+}
+.form-element-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 763px;
+}
+.form-layout{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 795px;
+}
+.form-layout-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:803px;
+    color: grey;
+}
+.form-layout-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 795px;
+}
+.form-wizard{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 830px;
+}
+.form-wizard-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:837px;
+    color: grey;
+}
+.form-wizard-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 828px;
+}
+.form-validation{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 865px;
+}
+.form-validation-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:872px;
+    color: grey;
+}
+.tables{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 900px;
+}
+.tables-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:907px;
+    color: grey;
+}
+.data-tables{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 935px;
+}
+.data-tables-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:943px;
+    color: grey;
+}
+.data-tables-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 935px;
+}
+.charts-maps{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 980px;
+    color: grey;
+}
+.charts{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 1030px;
+}
+.charts-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:1037px;
+    color: grey;
+}
+.charts-text i{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 1028px;
+}
+.leaflet-maps{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 1063px;
+}
+.leaflet-maps-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:1071px;
+    color: grey;
+}
+.misc{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 1100px;
+    color: grey;
+}
+.support{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 1150px;
+}
+.support-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:1157px;
+    color: grey;
+}
+.documentation{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 1182px;
+}
+.documentation-text h3{
+    position: absolute;
+    margin-left: 53px;
+    margin-top:1190px;
+    color: grey;
+}
+.main{
+    left: 16.25rem;
+    z-index:1;
+    /* max-width: 1000px; */
+    height: 50px; 
+    position: fixed;
+    left: 310px;
+    right: 30px;
+    top: 0;
+    margin: 1rem auto 0;
+    border-radius: 10px;
+    box-shadow: 10px;
+    background-color: rgba(255,255,255);
+    color: #6f6b7d;
+}
+.heading{
+     flex-basis: 100%;
+     align-items: center !important;
+     display: flex !important;
+     box-sizing: border-box;
+}
+.search{
+    color:#6f6d7d;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    align-items: center !important;
+    display: flex !important;
+    text-decoration: none;
+}
+.search i{
+     margin-right: 50px;
+     margin-bottom: -15px;
+     position: absolute;
+}
+.ctrlsearch{
+     display: inline-block;
+     position: absolute;
+     margin-top: 25px;
+     margin-left: 40px;
+}
+.li-1 i{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -25px;
+}
+.li-2 i{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: -25px;
+}
+.li-3 i{
+    position: absolute;
+    margin-left: 755px;
+    margin-top: -25px;
+}
+.li-4 i{
+    position: absolute;
+    margin-left: 792px;
+    margin-top: -25px;
+}
+/* .container{
+    height:1000px; 
+    width:200px;
+    background-color:whitesmoke;
+    margin:auto;
+    display:flex;
+    padding: 1000px;
+} */
+.box-1{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    background-color: rgb(115, 103, 240);
+    text-align: center;
+    bottom: 200px;
+    right: 500px;
+    border-radius: 10px;
+}
+.box-1 h1{
+    position: absolute;
+    left: 10px;
+    /* top: 00px; */
+    color: white;
+}
+.box-1 h3{
+    /* margin-right: 100px; */
+    position: absolute;
+    color: white;
+    bottom: 150px;
+    margin-left: 10px;
+}
+.box-1 h4{
+    position: absolute;
+    color: white;
+    bottom: 110px;
+    margin-left: 10px;
+}
+.box-1 img{
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+}
+.demo h3{
+    position: absolute;
+    bottom: 60px;
+    right: 349px;
+}
+.demo-1 h3{
+    position: absolute;
+    bottom: 60px;
+    right: 210px;
+}
+.demo-2 h3{
+    position: absolute;
+    bottom: 20px;
+    margin-left: 50px;
+}
+.demo-3 h3{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}
+.box-2{
+    height: 250px;
+    width: 220px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: 200px;
+    right: 250px;
+    border-radius: 10px;
+} 
+.box-2 h4{
+     color: gray;
+     position: absolute;
+     left: 10px;
+     bottom: 180px;
+}
+.box-2 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 150px;
+    margin-left: 10px;
+} 
+.demo-4 h3{
+     color: grey;
+     position: absolute;
+     bottom: 80px;
+     margin-left: 45px;
+} 
+.demo-5 h3{
+    color: grey;
+    position: absolute;
+    bottom: 79px;
+    margin-left: 120px;
+} 
+.demo-6 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 40px;
+}
+.demo-7 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 40px;
+    margin-left: 140px;
+}
+.demo-8 h4{
+    color: grey;
+    position: absolute;
+    bottom: 20px;
+}
+.demo-9 h4{
+    color: grey;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 130px;
+}
+.box-3{
+    height: 250px;
+    width: 220px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: 200px;
+    right: 5px;
+    border-radius: 10px;
+} 
+.box-3 h2{
+    color: rgb(81,80,80);
+    position: absolute;
+    bottom: 140px;
+    margin-left: 30px;
+}
+.box-3 h4{
+    color: rgb(134, 131, 131);
+    position: absolute;
+    bottom: 120px;
+    margin-left: 30px;
+}
+.box-3 img{
+    width: 220px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+.box-4{
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: -220px;
+    right: 500px;
+    border-radius: 10px;
+}
+.box-4 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 320px;
+    margin-left: 20px;
+}
+.box-4 h4{
+    color: grey;
+    position: absolute;
+    bottom: 290px;
+    margin-left: 20px;
+} 
+.box-4 h1{
+    color: rgb(81, 80, 80);
+    font-weight: 500;
+    position: absolute;
+    bottom: 220px;
+    margin-left: 20px;
+}
+.box-4 h5{
+    color: green;
+    position: absolute;
+    bottom: 180px;
+    margin-left: 30px;
+}
+.demo-10 h5{
+     color: grey;
+     position: absolute;
+     bottom: 120px;
+     margin-left: 20px;
+}
+.box-4 img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+}
+.demo-11 h3{
+    color: grey;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 70px;
+}
+.demo-12 h3{
+    color: grey;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 220px;
+}
+.demo-13 h3{
+    color: grey;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 350px;
+}
+.demo-14 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 30px;
+    margin-left: 40px;
+}
+.demo-15 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 30px;
+    margin-left: 190px;
+}
+.demo-16 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 30px;
+    margin-left: 320px;
+}
+.box-5 {
+    height: 400px;
+    width: 470px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: -220px;
+    right: 5px;
+    border-radius: 10px;
+}
+.box-5 h3{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 330px;
+    margin-left: 20px;
+}
+.box-5 h4{
+    color: grey;
+    position: absolute;
+    bottom: 300px;
+    margin-left: 20px;
+}
+.box-5 h1{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom: 200px;
+    margin-left: 20px;
+    font-size: xxx-large;
+}
+.demo-17 h4{
+    color:grey;
+    position: absolute;
+    bottom: 190px;
+    margin-left: 20px;
+} 
+.demo-18 h4{
+    color:rgb(81, 80, 80);
+    position: absolute;
+    bottom: 140px;
+    margin-left: 60px;
+} 
+.demo-19 h4{
+    color:rgb(81,80,80);
+    position: absolute;
+    bottom: 90px;
+    margin-left: 60px;
+} 
+.demo-20 h4{
+    color:rgb(81,80,80);
+    position: absolute;
+    bottom: 40px;
+    margin-left: 60px;
+} 
+.demo-21 h4{
+    color: grey;
+    position: absolute;
+    bottom: 120px;
+    margin-left: 60px;
+}
+.demo-22 h4{
+    color: grey;
+    position: absolute;
+    bottom: 68px;
+    margin-left: 60px;
+}
+.demo-23 h4{
+    color: grey;
+    position: absolute;
+    bottom: 18px;
+    margin-left: 60px;
+}
+.box-5 img{
+    position: absolute;
+    right: -40px;
+    bottom: 60px;
+}
+.box-6 {
+    height: 480px;
+    width: 310px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: -720px;
+    right:  640px;
+    border-radius: 10px;
+}
+.box-6 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom:410px;
+    margin: 15px;
+}
+.box-6 h5{
+    color: grey;
+    position: absolute;
+    bottom:380px;
+    margin: 15px;
+}
+.demo-24 img{
+    position: absolute;
+    bottom: 340px;
+    margin-left: -140px;
+}
+.demo-25 img{
+    position: absolute;
+    bottom: 280px;
+    margin-left: -140px;
+}
+.demo-26 img{
+    position: absolute;
+    bottom: 220px;
+    margin-left: -140px;
+}
+.demo-27 img{
+    position: absolute;
+    bottom: 150px;
+    margin-left: -140px;
+}
+.demo-28 img{
+    position: absolute;
+    bottom: 80px;
+    margin-left: -140px;
+}
+.demo-29 img{
+    position: absolute;
+    bottom: 10px;
+    margin-left: -140px;
+}
+.demo-24 h3{
+    position: absolute;
+    bottom: 340px;
+    margin-left: 75px;
+}
+.demo-25 h3{
+    position: absolute;
+    bottom: 280px;
+    margin-left: 75px;
+}
+.demo-26 h3{
+    position: absolute;
+    bottom: 220px;
+    margin-left: 75px;
+}
+.demo-27 h3{
+    position: absolute;
+    bottom: 150px;
+    margin-left: 75px;
+}
+.demo-28 h3{
+    position: absolute;
+    bottom: 80px;
+    margin-left: 75px;
+}
+.demo-29 h3{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 75px;
+}
+.demo-24 h4{
+    color: grey;
+    position: absolute;
+    bottom: 320px;
+    margin-left: 75px;
+}
+.demo-25 h4{
+    color:grey;
+    position: absolute;
+    bottom: 260px;
+    margin-left: 75px;
+}
+.demo-26 h4{
+    color:grey;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 75px;
+}
+.demo-27 h4{
+    color:grey;
+    position: absolute;
+    bottom: 130px;
+    margin-left: 75px;
+}
+.demo-28 h4{
+    color:grey;
+    position: absolute;
+    bottom: 60px;
+    margin-left: 75px;
+}
+.demo-29 h4{
+    color:grey;
+    position: absolute;
+    bottom: -10px;
+    margin-left: 75px;
+}
+.demo-24-1{
+      color: green; 
+      margin-left:160px;
+}
+.demo-25-1{
+    color: red; 
+    margin-left:160px;
+}
+.demo-26-1{
+    color: green; 
+    margin-left:160px;
+}
+.demo-27-1{
+    color: red; 
+    margin-left:160px;
+}
+.demo-28-1{
+    color: green; 
+    margin-left:160px
+}
+.demo-29-1{
+    color: green; 
+    margin-left:160px
+}
+.demo-24 i{
+    position: absolute;
+    top: 92px;
+    margin-left: -20px;
+}
+.demo-25 i{
+    position: absolute;
+    top: 152px;
+    margin-left: -20px;
+}
+.demo-26 i{
+    position: absolute;
+    top: 212px;
+    margin-left: -20px;
+}
+.demo-27 i{
+    position: absolute;
+    top: 284px;
+    margin-left: -20px;
+}
+.demo-28 i{
+    position: absolute;
+    top: 352px;
+    margin-left: -20px;
+}
+.demo-29 i{
+    position: absolute;
+    top: 422px;
+    margin-left: -20px;
+}
+.box-7 {
+    height: 480px;
+    width: 310px;
+    position: absolute;
+    background-color : white;
+    text-align: center;
+    bottom: -720px;
+    right:  320px;
+    border-radius: 10px;
+}
+.demo-30 h2{
+    color: rgb(81, 80, 80);
+    position: absolute;
+    bottom:410px;
+    margin: 15px;
+}
+.demo-31 h1{
+    color: grey;
+    position: absolute;
+    bottom:350px;
+    font-size: xxx-large;
+    font-weight: 1000;
+    margin: 15px;
+}
+.demo-31 h3{
+    color: green;
+    position: absolute;
+    bottom:365px;
+    margin-left: 160px;
+}
+ .demo-31 i{
+    position: relative;
+    bottom:-68px;
+    margin-left: -10px; 
+}
+ .demo-31 img{
+    position: absolute;
+    width: 280px;
+    bottom: 150px;
+    margin-left: -140px;
+}
+.box-8{
+    height: 480px;
+    width: 305px;
+    position: absolute;
+    background-color : white;
+    text-align: center;
+    bottom: -720px;
+    right:  5px;
+    border-radius: 10px;
+}
+.demo-33 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -55px;
+}
+.demo-33 h4{
+    color: grey;
+    margin-left: -120px;
+    margin-top: -10px;
+}
+.demo-34 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -90px;
+    margin-top: 40px;
+}
+.demo-35 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.demo-35 h4{
+    color: green;
+    margin-left: 220px;
+    margin-top: -38px;
+}
+.demo-36 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.demo-37 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.demo-37 h4{
+    color: green;
+    margin-left: 220px;
+    margin-top: -38px;
+}
+.demo-38 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.demo-39 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.demo-39 h4{
+    color: green;
+    margin-left: 220px;
+    margin-top: -38px;
+}
+.demo-40 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -70px;
+    margin-top: 50px;
+}
+.demo-41 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 110px;
+    margin-top: -40px;
+}
+.demo-41 h4{
+    color: green;
+    margin-left: 220px;
+    margin-top: -38px;
+}
+.demo-42 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -50px;
+    margin-top: 42px;
+}
+.demo-43 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 110px;
+    margin-top: -40px;
+}
+.demo-43 h4{
+    color: green;
+    margin-left: 222px;
+    margin-top: -38px;
+}
+.box-9{
+    height: 630px;
+    width: 305px;
+    position: absolute;
+    background-color : white;
+    text-align: center;
+    bottom: -650px;
+    right:  640px;
+    border-radius: 10px;
+}
+ .demo-44 h2{
+    color: rgb(81, 80, 80);
+    margin-left: -120px;
+}
+.demo-44 h4{
+    color: gray;
+    margin-left: -160px;
+    margin-top: -20px;
+}
+.demo-45 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -10px;
+}
+.demo-45 h4{
+    color: grey;
+    margin-left: -10px;
+    margin-top: -15px;
+} 
+.demo-46 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 5px;
+    margin-top: 48px;
+}
+.demo-46 h4{
+    color: grey;
+    margin-left: -10px;
+    margin-top: -15px;
+} 
+.demo-47 h3{
+    color: rgb(81, 80, 80);
+    margin-left: 5px;
+    margin-top: 47px;
+}
+.demo-47 h4{
+    color: grey;
+    margin-left: -4px;
+    margin-top: -15px;
+} 
+.demo-48 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -40px;
+    margin-top: 42px;
+}
+.demo-48 h4{
+    color: grey;
+    margin-left: 25px;
+    margin-top: -15px;
+} 
+.demo-49 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -60px;
+    margin-top: 42px;
+}
+.demo-49 h4{
+    color: grey;
+    margin-left: -20px;
+    margin-top: -15px;
+} 
+.demo-50 h3{
+    color: rgb(81, 80, 80);
+    margin-left: -60px;
+    margin-top: 45px;
+}
+.demo-50 h4{
+    color: grey;
+    margin-left: -20px;
+    margin-top: -17px;
+} 
+
+ 
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+.box-10{
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    background-color : white;
+    text-align: center;
+    bottom: -468px;
+    right:  10px;
+    border-radius: 10px;
+}

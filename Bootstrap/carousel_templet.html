@@ -1,16 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid practice</title>
-    <link rel="stylesheet" href="carousel_templet.css">
-    <link href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>corousel_templet</title>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="carousel-responsive.css">
+  <link rel="stylesheet" href="carousel_template.css">
 </head>
+
 <body>
-      
-    
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <header>
+    <nav class="navbar">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar text-light text-decoration-none me-4" href="#">Carousel</a>
+          <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">
+                  Disabled
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+  </header>
+  <main>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top: 40px;">
+      <div class="carousel-indicators">
+
+        <i class="fa-solid fa-minus fa-2xl" style="color: #fafafa;"></i>
+        <i class="fa-solid fa-minus fa-2xl" style="color: #c6c2c2;"></i>
+        <i class="fa-solid fa-minus fa-2xl" style="color: #c6c2c2;"></i>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Document (1).png" alt="" style="height: 500px;width: 100%;">
+
+          <div class="container">
+
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio,dapibus ac facilisis in,egestas eget quam.Donec id elit non porta gravida at eget
+                metus.Nullam id nibh ultricies vehicula ut id elit. </p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container marketing text-center" style="margin-top: 50px;">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-3">
+          <img src="image-2.png" alt="">
+          <h2>Heading</h2>
+          <p class="text-muted">Some representative placeholder content for the three columns of text below the
+            carousel. This is the first column.</p>
+          <p>
+            <a href="#" class="btn btn-secondary">View details</a>
+          </p>
+        </div>
+        <div class="col-lg-3">
+
+          <img src="image-2.png" alt="">
+          <h2>Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+          </p>
+          <p class="text-muted">
+            <a href="#" class="btn btn-secondary">View details</a>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img src="image-2.png" alt="">
+          <h2>Heading</h2>
+          <p class="text-muted">And lastly this, the third column of representative placeholder content.</p>
+          <p>
+            <a href="#" class="btn btn-secondary">View details</a>
+          </p>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="row text-center">
+          <div class="col-md-7">
+            <h1 class="heading" style="margin-top: 150px;">First featurette heading.
+              <span class="text-muted">It'll blow your mind.</span>
+            </h1>
+            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+              here.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="image-3.png" alt=""
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+
+          </div>
+
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-7 order-md-2">
+            <h1 class="heading" style="margin-top: 112px;">Oh yeah, it's that good.
+              <span class="text-muted">See for yourself.</span>
+            </h1>
+            <p class="lead d-flex">Another featurette? Of course. More placeholder content here to give you an idea of
+              how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="image-3.png" alt=""
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="heading" style="margin-top: 112px;">And lastly, this one.
+              <span class="text-muted" style="font-weight: 300;color: #6c757d !important;">Checkmate.</span>
+            </h1>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+              intended to be actually read, simply here to give you a better view of what this would look like with some
+              actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="image-3.png" alt="" class="img-fluid mx-auto">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+      </div>
+    </div>
+    <footer class="container mt-5 mb-5">
+      <p class="float-end">
+        <a href="#">Back to top</a>
+      </p>
+      <p>© 2017-2021 Company, Inc. ·
+        <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
+  </main>
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

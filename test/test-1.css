@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+.text-font{
+    font-family: 'Poppins', sans-serif;
+}
+*ul li
+{
+    list-style-type: none;
+}
+*a
+{
+    text-decoration:none;
+}
+.container{
+    height: 400px;
+    width: 1000px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.posts{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.box-1{
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+/* .box-1 h2{
+    position: fixed;
+    z-index: 1;
+} */
+.box-2{
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 260px;
+    border-radius: 10px;
+}
+.box-3{
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+.box-4{
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 742px;
+    border-radius: 10px;
+}
+.box-1 h5{
+    position: fixed;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(247, 180, 156);
+    padding: 3px 5px;
+    background-color: rgb(242, 236, 228);
+    border-radius: 8px;
+}
+.demo-box-1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+.box-2 h5{
+    position: fixed;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(127, 4, 4);
+    padding: 3px 5px;
+    background-color: rgb(243, 233, 233);
+    border-radius: 8px;
+}
+.box-3 h5{
+    position: fixed;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(247, 180, 156);
+    padding: 3px 5px;
+    background-color: rgb(242, 236, 228);
+    border-radius: 8px;
+}
+.box-4 h5{
+    position: fixed;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(127, 4, 4);
+    padding: 3px 5px;
+    background-color: rgb(243, 233, 233);
+    border-radius: 8px;
+}
+
+
+
