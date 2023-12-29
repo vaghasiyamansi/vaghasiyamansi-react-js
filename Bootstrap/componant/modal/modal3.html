@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: aqua; color: white;">
+              <h5>Product in the cart</h5>
+              <span><i class="fa-solid fa-xmark"></i></span>
+            </div>
+             <div class="modal-body d-flex align-items-center" style="margin-left: 10px;">
+              <h1><i class="fa-solid fa-cart-shopping fa-lg" style="color: #47dee1;"></i><h1>
+              <div class="display-block">
+              <p class="text-muted" style="font-size: large; margin-left: 20px;">
+              Do you need more time to make a purchase desicion?
+              </p>
+              <p class="text-muted" style="font-size: large; margin-left: 20px;">
+              No pressure! your product will be waiting for you in the cart.
+              </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">GO TO CART
+                
+              <button type="button" class="btn btn-outline-info">CANCLE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

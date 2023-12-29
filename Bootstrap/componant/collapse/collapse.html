@@ -9,34 +9,51 @@
 
 </head>
 <body>
-    <p class="d-inline-flex gap-1">
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          Button with data-bs-target
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </div>
-      </div>
-
-      <p>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-          Toggle width collapse
-        </button>
-      </p>
-      <div style="min-height: 120px;">
-        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <div class="card card-body" style="width: 300px;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nihil soluta et delectus aspernatur quisquam eligendi ipsa. Quaerat animi odio quo fugit obcaecati aspernatur quasi saepe necessitatibus, illo doloribus itaque.
-          </div>
-        </div>
-      </div>
+  <div class="container">
+    <div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Panel 1</h3>
+					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+				</div>
+				<div class="panel-body">Panel content</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Panel 2</h3>
+					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+				</div>
+				<div class="panel-body">Panel content</div>
+		</div>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">Panel 3</h3>
+					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+				</div>
+				<div class="panel-body">Panel content</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-warning">
+				<div class="panel-heading">
+					<h3 class="panel-title">Panel 4</h3>
+					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+				</div>
+				<div class="panel-body">Panel content</div>
+			</div>
+		</div>
+	</div>
+</div>
 
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
 
 
 </body>

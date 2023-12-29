@@ -1,0 +1,121 @@
+@import 'variable';
+
+.container{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-1;
+    display: $flex;
+    justify-content: $j-between;
+    margin: $m-5;
+}
+.box-1{
+    height: $h-2;
+    width: $w-2;
+    background-color: $bg-2;
+    margin: $m-1;
+    border: 2px solid black;
+}
+.icon-1{
+    font-size: $fs-1;
+    display: $flex;
+    justify-content: $j-center;
+    margin-top: $m-1;
+}
+.text-1{
+    display:$flex;
+    justify-content: $j-center;
+}
+.p1{
+    font-size:$fs-2 ;
+    text-align: center;
+    font-weight: 500px;
+}
+.button-1{
+    display: $flex;
+    justify-content: $j-center;
+}
+.button-1 button{
+    background-color: $bg-3;
+    color: $bg-2;
+    width: $w-3;
+    padding: $p-1;
+    border: 0;
+    border-radius: 50px;
+}
+.box-2{
+    height: $h-2;
+    width: $w-2;
+    background-color: $bg-4;
+    margin: $m-1;
+}
+.icon-2{
+    font-size: $fs-1;
+    display: $flex;
+    justify-content: $j-center;
+    margin-top: $m-1;
+    color: $bg-2;
+}
+.text-2{
+    display:$flex;
+    justify-content: $j-center;
+    color: $bg-2;
+}
+.p2{
+    font-size:$fs-2 ;
+    text-align: center;
+    font-weight: 500px;
+    color: $bg-2;
+}
+.button-2{
+    display: $flex;
+    justify-content: $j-center;
+}
+.button-2 button{
+    background-color: $bg-2;
+    color: $bg-4;
+    width: $w-3;
+    padding: $p-1;
+    border: 0;
+    border-radius: 50px;
+}
+.box-3{
+    height: $h-2;
+    width: $w-2;
+    background-color: $bg-2;
+    margin: $m-1;
+    border: 2px solid black;
+}
+.icon-3{
+    font-size: $fs-1;
+    display: $flex;
+    justify-content: $j-center;
+    margin-top: $m-1;
+}
+.text-3{
+    display:$flex;
+    justify-content: $j-center;
+}
+.p3{
+    font-size:$fs-2 ;
+    text-align: center;
+    font-weight: 500px;
+}
+.button-3{
+    display: $flex;
+    justify-content: $j-center;
+}
+.button-3 button{
+    background-color: $bg-3;
+    color: $bg-2;
+    width: $w-3;
+    padding: $p-1;
+    border: 0;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
