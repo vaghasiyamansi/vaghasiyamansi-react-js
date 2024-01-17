@@ -1,0 +1,17 @@
+.maindiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.maindiv .box-1 {
+  height: 400px;
+  width: 300px;
+  background-color: black;
+  border: 2px solid black;
+}
+.maindiv .box-2 {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(250, 47, 81);
+}/*# sourceMappingURL=lec-1.css.map */

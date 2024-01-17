@@ -1,0 +1,48 @@
+// @each and in method
+
+// @each $a in main , box-3 , box-1 , box-2{
+//     .#{$a}{
+//         border : 1px solid black;
+//         margin: 10px;
+//     }
+// }
+
+// @each with simple list
+
+// $list:(main , box-3 , box-1 , box-2 , box-3);
+// @each $a in $list{
+//     .#{$a}{
+//         border: 2px solid red;
+//         margin: 15px;
+//     }
+// }
+
+// multiple assignement
+
+$list : ((main , 100px , red , 10px) , (para , purple , 200px , 20px) , (box , red , 100px , 10px));
+
+@each $name , $color , $size , $position in  $list{
+    .#{$name}{
+        border:$color;
+        height: $size;
+        left: $position;
+    }
+}
+
+@each $a in main box box-1 box-2 box-3{
+        .#{$a}{
+            border:1px solid red;
+        }
+    }
+    
+    .box-1{
+        border:1px solid red;
+        &:hover{
+            border:1px solid blue;
+            &:hover{
+                border:1px solid green;
+            }
+        }
+    }
+
+

@@ -13,6 +13,7 @@
   background-color: white;
   margin: 10px;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 .icon-1 {
@@ -28,7 +29,7 @@
 }
 
 .p1 {
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   font-weight: 500px;
 }
@@ -52,6 +53,7 @@
   width: 300px;
   background-color: rgb(250, 47, 81);
   margin: 10px;
+  border-radius: 5px;
 }
 
 .icon-2 {
@@ -69,7 +71,7 @@
 }
 
 .p2 {
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   font-weight: 500px;
   color: white;
@@ -95,6 +97,7 @@
   background-color: white;
   margin: 10px;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 .icon-3 {
@@ -110,7 +113,7 @@
 }
 
 .p3 {
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   font-weight: 500px;
 }
