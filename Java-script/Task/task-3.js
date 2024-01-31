@@ -170,7 +170,7 @@
 // Q-13 Loop with a conditional break statement based on user input
 
 // {
-//    let i  , num = prompt("Enter only single digit number : ");
+//    let i  , num = prompt("Enter only single digit number :");
 
 //    let sum =num*10;
 
@@ -191,18 +191,7 @@
 
 
 // continue statement
-// que-14
-{
-   // let i;
-   // for (i = 1; i <= 10; i++) {
 
-   //     if (i % 2 !== 0) {
-   //       continue;
-   //     }
-   //     document.write(i);
-   //   }
-
-}
 //  Q-14 Skip printing odd numbers using a for loop and continue statement
 
 // 
