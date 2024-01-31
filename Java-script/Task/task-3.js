@@ -37,7 +37,8 @@
 //     }
 // }
 
-// Q-4 
+// Q-4 Guess the number game using a while loop
+
 {
    // const number = 3;
    // let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
@@ -111,7 +112,7 @@
 //    }
 // }
 
-// Q-10 
+// Q-10 a specific number using a for loop and break statement
 
 // let x = 0 , num = prompt("enter Search number between 1 to 20 : "); 
 
@@ -126,7 +127,8 @@
     //     document.write(" your number is Search........" + x +"<br>");
     // }
 
-// Q-11
+// Q-11 first odd number in a sequence using a while loop and break
+// statement
 
 // {
 //    let i = prompt("Enter a starting number value : " ) , num = prompt("enter a ending number value : " );  
@@ -144,7 +146,7 @@
 
 // }
 
-// Q-12
+// Q-12 a number is prime using a for loop and break statement
 
 // {
 //    const number = parseInt(prompt("Enter a positive number: "));
@@ -165,7 +167,7 @@
 
 // }
 
-// Q-13
+// Q-13 Loop with a conditional break statement based on user input
 
 // {
 //    let i  , num = prompt("Enter only single digit number : ");
@@ -201,13 +203,7 @@
    //   }
 
 }
-
-
-
-
-
-
-// Q-14 Skip printing odd numbers using a for loop and continue statement
+//  Q-14 Skip printing odd numbers using a for loop and continue statement
 
 // 
 // {
