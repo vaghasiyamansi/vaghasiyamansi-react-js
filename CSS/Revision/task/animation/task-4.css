@@ -1,0 +1,38 @@
+.container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;   
+}
+
+.box{
+    width: 400px ;
+    height: 400px;
+    background-color:rgb(16, 16, 173);
+    animation: shape 1s linear infinite alternate;
+}
+
+@keyframes shape
+{
+    0%{
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 20%;
+        transform: scale(0.9);
+    }
+    50%{
+        border-radius: 30%;
+        transform: scale(0.7);
+        background-color: rgb(120, 15, 15);
+    }
+    75%{
+        border-radius: 35%;
+        transform: scale(0.4);
+        background-color: rgb(120, 15, 15);
+    }
+    100%{
+        border-radius: 50%;
+        transform: scale(0.2);
+        background-color: rgb(120, 15, 15);
+    }
+}

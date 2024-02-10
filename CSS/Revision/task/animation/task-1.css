@@ -1,0 +1,27 @@
+.container{
+    min-height: 500px;
+    display: grid;
+    align-items: center;
+}
+
+.circle{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    animation: animationMove 1s linear 2s 5 ;
+    position: absolute;
+}
+
+@keyframes animationMove{
+    0%{
+        left: 0% ;
+    }
+    50%{
+        left: 10%;
+        border: 10px solid maroon
+    }
+    100%{
+        left: 20%;
+    }
+}

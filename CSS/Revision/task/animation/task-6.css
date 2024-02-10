@@ -1,0 +1,66 @@
+.maindiv{
+    height:500px ;
+    width: 500px;
+    background-color:rgb(210, 112, 112) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle-1{
+    height:300px ;
+    width:300px ;
+    background-color:white;
+    border-radius: 100%;
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-2{
+    height:150px ;
+    width:150px ;
+    background-color:white;
+    border-radius: 100%;
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
+    position: absolute;
+    animation-name: spinner-2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+@keyframes spinner-2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

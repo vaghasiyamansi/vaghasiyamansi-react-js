@@ -1,0 +1,67 @@
+.container{
+    width: 1020px;
+    height: 500px;
+    margin: auto;
+    background-color: orange;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background: url(pexels-egor-kamelev-753266.jpg);
+    filter: sepia(70%);
+    border-radius: 10px;
+    padding-inline-start: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+}
+.card:hover{
+    filter: saturate(1);
+}
+.card:hover .animation{
+    transition-duration: 0.9s;
+    transform: translateY(30px);
+    transition-timing-function: linear;
+}
+
+.text{
+     padding-top: 20px;
+}
+.text span{
+    display: block;
+    color: rgb(211, 175, 109);
+    font-size: 15px;
+}
+.text :nth-child(2){
+   color: white;
+   font-size: 20px;
+}
+.icon-text{
+    display: flex;
+    color: white;
+    padding-block-start: 10px;
+}
+.img-content{
+    position: absolute;
+    bottom: 20px;
+    display:flex;
+}
+.img-content img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.Text span{
+    display: block;
+    color: white;
+    padding-inline-start: 10px;
+    padding-block-start: 5px;
+}
+

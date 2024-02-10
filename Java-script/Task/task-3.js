@@ -39,51 +39,51 @@
 
 // Q-4 Guess the number game using a while loop
 
-{
-   // const number = 3;
-   // let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
-   // while(x<9)
-   // {
-   //     x++;
-   //     if(num == number )
-   //     {
-   //         document.write( "<hr>" +"Right number is you win : " + number);
-   //         break;
-   //     }
-   //         document.write(x + ". " +"your chosen number is : " + num + "<br>");
-   //         num = prompt("Guess the number game \n we give you a 10 chance : ");  
-   // 
+
+   const number = 3;
+   let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
+   while(x<9)
+   {
+       x++;
+       if(num == number )
+       {
+           document.write( "<hr>" +"Right number is you win : " + number);
+           break;
+       }
+           document.write(x + ". " +"your chosen number is : " + num + "<br>");
+           num = prompt("Guess the number game \n we give you a 10 chance : ");  
+   
 }
 
 
 // Q-5 fibonacci series
 
-{
-   var i = 0;
-   var j = 1;
-   var k;
-   var a=1
+// {
+//    var i = 0;
+//    var j = 1;
+//    var k;
+//    var a=1
    
-   while (a<=30) {
-       document.write(i + "<br>");
-         k = i + j;
-         i = j;
-         j = k;
-         a++;
-   }
-}
+//    while (a<=30) {
+//        document.write(i + "<br>");
+//          k = i + j;
+//          i = j;
+//          j = k;
+//          a++;
+//    }
+// }
 
 // Q-6 factorial of a number
 
-// {
-//     var i = 1;
-//     var j = 1;
-//      while (i <= 10) {
-//         document.write(j + "<br>");
-//         j = j*i;
-//         i++;
-//      }
-// }
+{
+    var i = 1;
+    var j = 1;
+     while (i <= 10) {
+        j = j*i;
+        i++;
+        document.write(j + "<br>");
+     }
+}
 
 // Q-8 power of Number
 
@@ -157,7 +157,7 @@
 //            isPrime = false;
 //            break;
 //        }
-//    }
+// }
 
 //    if (isPrime) {
 //        document.write(`${number} is a prime number`);

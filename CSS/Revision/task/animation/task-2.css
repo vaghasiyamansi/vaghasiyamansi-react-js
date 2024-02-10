@@ -1,0 +1,24 @@
+.container{
+    min-height: 500px;
+    display: grid;
+    place-items:center ;
+}
+
+.rectangle{
+    background-color: blue;
+    width: 60%;
+    height: 300px;
+    animation:  scale .9s linear 1 backwards alternate ;
+}
+
+@keyframes  scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

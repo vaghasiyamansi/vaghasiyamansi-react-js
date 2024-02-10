@@ -1,0 +1,107 @@
+.container{
+    background-color: #11366d;
+    min-height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: white;
+    width: 150px;
+    height: 150px ;
+    border-radius: 20px ;
+    position: relative;
+}
+
+.box h1{
+    background-color: white; 
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    font-weight: 800;
+    font-size: 45px;
+    animation: counts 8s linear  infinite forwards;
+}
+
+.box h1:nth-child(1){
+    z-index: 8;
+    animation: counts 8s linear 1s infinite forwards;
+}
+
+.box h1:nth-child(2){
+    z-index: 7;
+    animation: counts 8s linear 2s infinite forwards;
+}
+
+.box h1:nth-child(3){
+    z-index: 6;
+    animation: counts 8s linear 3s infinite forwards;
+}
+
+.box h1:nth-child(4){
+    z-index: 5;
+    animation: counts 8s linear 4s infinite forwards;
+}
+
+.box h1:nth-child(5){
+    z-index: 4;
+    animation: counts 8s linear 5s infinite forwards;
+}
+
+.box h1:nth-child(6){
+    z-index: 3;
+    animation: counts 8s linear 6s infinite forwards;
+}
+
+.box h1:nth-child(7){
+    z-index: 2;
+    animation: counts 8s linear 7s infinite forwards;
+}
+
+.box h1:nth-child(8){
+    z-index: 1;
+    animation: counts 8s linear 8s infinite forwards;
+}
+
+@keyframes counts{
+    0%{
+            z-index: 7;
+    }
+
+    12%{
+            z-index: 6;
+    }
+
+    24%{
+            z-index: 5;
+    }
+
+    36%{
+            z-index: 4;
+    }
+
+    48%{
+            z-index: 5;
+    }
+
+    60%{
+            z-index: 4;
+    }
+
+    72%{
+            z-index: 3;
+    }
+
+    84%{
+            z-index: 2;
+    }
+
+    100%{
+            z-index: 1;
+    }
+}
+
