@@ -1,0 +1,21 @@
+@media (max-width:992px) {
+    .Navbar nav .Navlink{
+        display: none;
+    }
+
+    .Navbar nav .menu-btn{
+        display: block;
+        margin: auto 10px ;
+        order: 2;
+    }
+
+    .Navbar nav .contact-btn{
+        order: 1;
+    }
+}
+
+@media (max-width:480px) {
+    .Navbar nav .contact-btn{
+        display: none;
+    }
+} 

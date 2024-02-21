@@ -45,9 +45,9 @@
 // Q-4 print n to 1
 
 {
-    // for(let n = 50; n >= 1; n--){
-        //         console.log(n);
-        //     } 
+    for(let n = 10; n >= 1; n--){
+                console.log(n);
+            } 
 }
     
 
@@ -108,11 +108,11 @@
 
 // Q-10 A-a , B-b ________ Z-z
 {
-    let a = 0;
-    for(let i = 65; i <= 90; i++){
-        a++;
-        console.log(`${String.fromCharCode(i)} - ${String.fromCharCode(96+a)}`);
-    }
+    // let a = 0;
+    // for(let i = 65; i <= 90; i++){
+    //     a++;
+    //     console.log(`${String.fromCharCode(i)} - ${String.fromCharCode(96+a)}`);
+    // }
 }
 
 
@@ -180,6 +180,7 @@
 //             }
 }
 
+
 // Q-16 1,4,3,16,5...n
 {
         // console.log(` Print 1 , 4 , 3 , 16 , 5 `);
@@ -200,12 +201,12 @@
 
 // Q-17 1,2,4,8,16....n
 {
-    let x = 1 , i = 1;
-    do{
-        console.log(x);
-        x = x * 2;
-        i++;
-    }while(i <= 10)
+    // let x = 1 , i = 1;
+    // do{
+    //     console.log(x);
+    //     x = x * 2;
+    //     i++;
+    // }while(i <= 10)
 }
 
 
@@ -234,7 +235,21 @@
     //      }
     //      i++;
     // }while(i<=90);
- }
+}
+
+
+// Q-20 0.5 , 1 , 2 ,5 ,5....
+{
+    let t = 1;
+    let i = 0.5;
+    do{
+        console.log(i++);
+        console.log(t++);
+        t+=3;
+        i++;
+    }while(i <= 20)
+}
+
 
 //  Q-20 1 , 1 , 2 , 3 , 5 ...n
 {
@@ -250,6 +265,7 @@
     //     b = c ;
     // }
 }
+
 
 // Q-22 A , c , E , g , i...
 {
