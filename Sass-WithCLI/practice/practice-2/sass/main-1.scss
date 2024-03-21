@@ -1,0 +1,106 @@
+@import 'variable';
+
+body{
+    margin: 0;
+    background-color: $bg-1;
+}
+nav{
+    display: $flex;
+    justify-content: $j-between;
+    background-color: $bg-3;
+    @at-root
+        ul{
+            display: $flex;
+            list-style-type: none; 
+            @at-root 
+            li{
+                margin-right:$m-1;
+                @at-root
+                a{   
+                    text-decoration: none;
+                    @at-root
+                    .ticket-img{
+                        color: $c-2;
+                    padding: $p-1;
+
+                    }
+                }
+            }
+        }
+}
+
+.img-1{
+    height: $h-1;
+    padding: $p-1;
+}
+
+li{
+    color: $c-3;
+}
+nav ul li a{
+    color: $c-1;
+}
+
+.ticket-img{
+    background-color:$bg-2 ;
+}
+.ticket-img img{
+    height:$h-1 ;
+}
+.bg-img-1{
+    display: $flex;
+    height: $h-2;
+    background-image: url(../../asset/page-title-bg.jpg);
+    
+    justify-content:$j-center;
+    align-items:$i-center;
+}
+.img-text{  
+    text-align: $t-center;
+    line-height: 10px;
+    color: $c-2;
+}
+.img-text span{
+    font-size: $f-1;
+}
+
+.container {
+    background-color: rgb(244, 240, 240);
+    width: 1000px;
+    margin: auto;
+}
+
+  
+  .sponser {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 10px;
+    margin: 30px;
+  }
+  
+  .text {
+    display: block;
+  }
+  
+  .text p {
+    opacity: 0.8;
+  }
+.form{
+    width: $w-2;
+}
+input text{
+    margin: $m-1;
+}
+.button{
+    display: flex;
+    justify-content: $j-center;
+    margin-top: $m-2;
+}
+button{
+    border: 0;
+    background-color: $bg-2;
+    padding-inline: $p-2;
+    padding-block: $p-1;
+    color: $c-2;
+}

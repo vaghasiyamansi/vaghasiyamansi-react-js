@@ -1,0 +1,47 @@
+.main {
+  border: 100px;
+  height: red;
+  left: 10px;
+}
+
+.para {
+  border: purple;
+  height: 200px;
+  left: 20px;
+}
+
+.box {
+  border: red;
+  height: 100px;
+  left: 10px;
+}
+
+.main {
+  border: 1px solid red;
+}
+
+.box {
+  border: 1px solid red;
+}
+
+.box-1 {
+  border: 1px solid red;
+}
+
+.box-2 {
+  border: 1px solid red;
+}
+
+.box-3 {
+  border: 1px solid red;
+}
+
+.box-1 {
+  border: 1px solid red;
+}
+.box-1:hover {
+  border: 1px solid blue;
+}
+.box-1:hover:hover {
+  border: 1px solid green;
+}/*# sourceMappingURL=lec-2.css.map */

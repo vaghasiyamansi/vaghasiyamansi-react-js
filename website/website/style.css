@@ -1,0 +1,191 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a , span {
+  /* display:inline-block; */
+  text-decoration: none;
+}
+
+ul , ol {
+  list-style: none;
+}
+
+.Container
+{
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* Css Start  */
+
+header{
+  margin: auto;
+  min-height: 100px;
+}
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .logo{
+  border-radius: 22px ;
+  color: black;
+}
+
+.Navbar nav,
+.Navbar nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar nav ul li{
+  margin: 12px;
+}
+
+.Navbar nav ul li a{
+  color: black;
+}
+
+.Navbar nav .menu-btn button,
+.Navbar nav .contact-btn button{
+  display: inline-block;
+  color: black;
+  border: 1px solid white ;
+  background-color: aqua;
+  border-radius: 20px ;
+  padding: 8px 16px;
+}
+
+/* main start */
+
+.Container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main{
+     display: flex;
+     justify-content: center;
+     color: black;
+     font-size:x-large;
+}
+
+.row{
+    /* display: grid;
+    grid-template-columns:auto auto;
+    padding: 30px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.main-text{
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.side-text{
+  padding:30px 50px;
+  /* width: 1000px; */
+}
+
+.side-text .contact-btn-2 button{
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: block;
+}
+
+.text-para{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.row-1{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 20px;
+}
+
+.icon-side-text{
+  width: 68%;
+}
+
+.bottom-text{
+  display: block;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.icon-text{
+  width: 30%;
+}
+
+.section3{
+  display: flex;
+}
+
+.text-structure{
+  font-size: larger;
+  font-weight: 500;
+}
+
+.text-part{
+  font-size: x-large;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.text-part-2{
+  margin-top: 20px;
+  font-size: small;
+}
+
+.box-part{
+  display: flex;
+}
+
+.box-1{
+  height: 170px;
+  width: 220px;
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+.box-2{
+  height: 170px;
+  width: 220px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.box-3{
+  height: 170px;
+  width: 220px;
+  background-color: rgb(240, 202, 202);
+  border-radius: 10px;
+}
+
+.box-4{
+  height: 170px;
+  width: 220px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+

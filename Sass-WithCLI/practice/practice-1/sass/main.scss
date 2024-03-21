@@ -1,0 +1,162 @@
+@import 'variable';
+
+// main css
+
+
+body{
+    margin: 0;
+    background-color: $bg-1;
+}
+nav{
+    display: $flex;
+    justify-content: $j-between;
+    background-color: $bg-3;
+    @at-root
+        ul{
+            display: $flex;
+            list-style-type: none; 
+            @at-root 
+            li{
+                margin-right:$m-1;
+                @at-root
+                a{   
+                    text-decoration: none;
+                    @at-root
+                    .ticket-img{
+                    color: $c-2;
+                    padding: $p-1;
+
+                    }
+                }
+            }
+        }
+}
+
+.img-1{
+    height: $h-1;
+    padding: $p-1;
+}
+
+li{
+    color: $c-3;
+}
+nav ul li a{
+    color: $c-1;
+}
+
+.ticket-img{
+    background-color:$bg-2;
+}
+.ticket-img img{
+    height:$h-1 ;
+}
+.bg-img-1{
+    display: $flex;
+    height: $h-2;
+    background-image: url(../../asset/page-title-bg.jpg);
+    
+    justify-content:$j-center;
+    align-items:$i-center;
+}
+.img-text{  
+    text-align: $t-center;
+    line-height: 10px;
+    color: $c-2;
+}
+.img-text span{
+    font-size: $f-1;
+}
+.container{
+    background-color:$bg-1;
+    width: $w-2;
+    margin:$m-1;
+}
+.sponser{
+    display: $flex;
+    justify-content:$j-center;
+    text-align: $t-center;
+    line-height: 10px;
+    margin: $m-2;
+}
+.text{
+    display: $block;
+}
+.platinum{
+    display: $flex;
+    justify-content:$j-center;
+    text-align: $t-center;
+    color: $c-3;
+    margin: $m-2;
+    font-weight: $fw-1;
+}
+.text p{
+    opacity: 0.8;
+}
+.images{
+    display: $flex;
+    justify-content: $j-between;
+}
+.image-1{
+    background-color: $bg-4;
+    height: $h-3;
+    width: $w-1;
+}
+
+.images-1{
+    display:$flex;
+    justify-content: $j-evenly;
+}
+.img1{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-2{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-3{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-4{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+.img-5{
+   display:$flex ; 
+   justify-content: $j-center;
+   margin: $m-1;
+   padding: 10px;
+}
+.img-6{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-7{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+.button{
+    display: flex;
+    justify-content: $j-center;
+    margin-top: $m-2;
+}
+button{
+    border: 0;
+    background-color: $bg-2;
+    padding-inline: $p-2;
+    padding-block: $p-1;
+    color: $c-2;
+}
